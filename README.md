@@ -11,5 +11,10 @@ python clean.py path/to/dir/to/clean
 
 Script creates `images`, `docs`, `archives` and `exe` directories and moves files with certain extensions from path specified in command line to created folders.
 
-Simple way to clean up your directory.  
-Feel free to leave a comment about the script.
+Folders and extensions:  
+`images` - e.g. .jpg, .gif, .png, .tiff, .blend  
+`docs` - e.g. .doc, .pdf, .xls  
+`archives` - e.g. .zip, .tar, .7z  
+`exe` - .exe only  
+
+Feel free to leave a comment with improvements.
