@@ -45,6 +45,7 @@ else:
                     os.mkdir(os.path.join(destination_dir, 'docs'))
                 shutil.move(f'{destination_dir}/{f}', f'{destination_dir}/docs/{f}')
                 continue
+
             if '.exe' in file_extension:
                 if not os.path.exists(os.path.join(destination_dir, 'exe')):
                     os.mkdir(os.path.join(destination_dir, 'exe'))
